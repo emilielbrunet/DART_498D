@@ -1,0 +1,89 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	left: 47%;
+	z-index: 999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	border: solid red 3px;
+}
+
+nav a {
+	font-size: 36px;
+	color:red;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav:hover {
+	background-color: red;
+}
+
+section {
+	margin-left: 18%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 140px;
+	font-size: 48px;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*reading 1*/
+
+.boxes {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.reading1 {
+	height: 400px;
+	width: 400px;
+	margin: 20px;
+	border: red solid 3px;
+}
+
+.r1 {
+	color: red;
+	padding-top: 37%;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.reading1:hover .r1 {
+	color: white;
+}
+
+.reading1:hover {
+	background-color: red;
+}

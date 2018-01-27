@@ -1,0 +1,82 @@
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+nav {
+	position: fixed;
+	top: 20px;
+	left: 48%;
+	z-index: 999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	border: solid #0297A2 3px;
+	background-color: #0297A2;
+	cursor: pointer;
+	
+}
+
+nav input {
+	font-size: 36px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 0;
+	background-color: transparent;
+	transform: rotate(45deg);
+	padding-left: 7px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+nav input:hover {
+	color: #0297A2;
+}
+
+nav input:focus {
+	outline: none;
+}
+
+nav:hover {
+	background-color: white;
+	border: solid #0297A2 3px;
+}
+
+#items {
+	text-align: center;
+	margin-top: 120px;
+}
+
+#items a {
+	font-size: 52px;
+	text-decoration: none;
+	color: black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	display: block;
+	padding: 10px;
+}
+
+#items a:hover {
+	text-decoration: line-through;
+	text-decoration-color: #FF7964;
+}
+
+@media only screen and (min-width: 600px) {
+	#items a {font-size: 60px;padding: 10px;}
+	#items {margin-top: 120px;}
+}
+
+@media only screen and (min-width: 768px) {
+	#items a {font-size: 80px;padding: 15px;}
+	#items {margin-top: 140px}
+}

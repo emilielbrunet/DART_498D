@@ -1,0 +1,32 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+section {
+	width: 50%;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-top: 7%;
+	margin-left: 25%;
+	margin-right: 25%;
+	
+}
+
+p {
+	font-size: 20px;
+	margin: auto;
+	line-height: 35px;
+	padding-bottom: 10%;
+}
+
+h1 {
+	font-size: 24px;
+	margin: auto;
+	padding-bottom: 35px;
+	color: red;
+}

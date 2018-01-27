@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MAIN</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+<div class="head2">
+	<button id="menu">
+		<p id="nava">☰</p>
+	</button>
+	<div id="nav_content">
+		<a class="link2" href="#tippy">TOP</a>
+		<a class="link2" href="#grad">WEEK 1</a>
+	</div>
+	</div>
+	
+<div id="tippy"></div>
+
+<div class="head1">
+	<section id="title">
+		<h2>Émilie Brunet</h2>
+		<h1>DART 498D</h1>
+		<h3>Post.Grad.Strategies</h3>
+	</section>
+</div>
+
+<div id="grad"></div>
+
+<div id="week1">
+	<p class="title1">Graduate Schools</p>
+	<div id="img1">
+		<p class="title2">Emily Carr University of Art and Design</p>
+		<p class="title3">Vancouver, Canada</p>
+	</div>
+	<p class="body">The Master of Design 2-year program at ECUAD provides a diverse approach to design that would compliment the design training I have received at Concordia University. There is flexibility within the program to take charge of your learning and pick your own path based on individual interests. I would get to work closely with my peers on projects which would prepare me for real world situations. The independent studies and studio practice mixed with theory and research would allow me to obtain a well-rounded education in design and feel prepared for a variety of future possibilities in the field.<br><a class="link1" href="http://www.ecuad.ca/academics/graduate-degrees/master-of-design" target="_blank">Visit Site &rarr;</a></p>
+		<div id="img2">
+		<p class="title2">Academy of Art University San Francisco</p>
+		<p class="title3">San Francisco, USA</p>
+	</div>
+		<p class="body">In the vibrant city of San Francisco California, where technology and design are fast growing industries, lives the Master of Graphic Design Degree at the Academy of Art University. This 2-year program is specific to graphic design with a focus on innovation, marketing, social awareness and design theory. This program would provide me with a more in-depth understanding of graphic design, giving me the chance to specialize myself and acquire the skills necessary to enter into a graphic design position at a company or to freelance graphic design on my own.<br><a class="link1" href="https://www.academyart.edu/academics/graphic-design/graduate-degrees" target="_blank">Visit Site &rarr;</a></p>
+		<div id="img3">
+		<p class="title2">University of the Arts London</p>
+		<p class="title3">London, England</p>
+	</div>
+		<p class="body">In the centre of historically rich and technologically advanced London England, we find the University of the Arts London’s Master of Graphic Communication design program. Two years in length, this degree provides a versatile and contemporary education in graphic communication design. This program also offers courses in illustration and web design which are two skills that I would like to further my studies in. This program also looks at design from the perspective of sustainability and social change, which are very important topics to understand to find success in today’s market.<br><a class="link1" href="http://www.arts.ac.uk/csm/courses/postgraduate/ma-graphic-communication-design/" target="_blank">Visit Site &rarr;</a></p>
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#nav_content").toggle();
+    });
+});
+	
+	$(function()
+{
+  var expanded = false;
+  $('button').click(function()
+                      {
+                          if (!expanded)
+                          {
+                              $(this).animate({'top' : '9px'}, {duration : 400});
+                              expanded = true;
+                          }
+                          else
+                          {
+                             $(this).animate({'top' : '24px'}, {duration: 400});
+                              expanded = false;
+                          }
+                      });
+ });
+</script>
+
+</body>
+</html>

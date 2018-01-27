@@ -1,0 +1,251 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/wall_3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+button {
+		box-shadow:rgba(0,0,0,0.00) ;
+}
+
+#menu {
+	position: fixed;
+	top: 25px;
+	left: 48%;
+	z-index: 999;
+	width: 10%;
+	height: 5%;
+	border-radius: 50%;
+	text-align: center;
+	border: solid white 3px;
+	cursor: pointer;
+	background-color:rgba(0,0,0,0.00);
+		-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+button{
+		-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#menu:clicked {
+		-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#nava {
+	font-size: 1.75em;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	background-color:rgba(0,0,0,0.00);
+	line-height: 5%;
+}
+
+.head1 {
+	width: 100vw;
+	height: 275px;
+	background:rgba(255,255,255,0.55);
+	margin-top: 0;
+	padding-top:90px;
+}
+
+.head2 {
+	width: 100vw;
+	height: 85px;
+	background: #FF7964;
+	position: fixed;
+}
+
+#nava:hover {
+	color: #FF7964;
+	box-shadow: rgba(0,0,0,0.00);
+	
+}
+
+#menu:hover{
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.00);
+}
+
+
+#nava:active {
+	color: #FF7964;
+	box-shadow: rgba(0,0,0,0.00);
+}
+
+#menu:active{
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.00);
+}
+
+#nav_content {
+	display: none;
+	padding-top: 55px;
+	text-align: center;
+}
+
+.link2 {
+	text-decoration: none;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.link2:hover {
+	text-decoration: underline;
+}
+
+.link2:active {
+	text-decoration: underline;
+}
+
+#title {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin-top: 15px;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1em;
+	margin-top: 5px;
+}
+
+#week1 {
+	background:rgba(255,255,255,1.0);
+	margin-top: 10vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	padding: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+.title1 {
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	color: #A4B0A8;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+#img1 {
+	width: 80vw;
+	background-image: url(../images/ECUAD.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+#img2 {
+	width: 80vw;
+	background-image: url(../images/AAUSF.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 75px;
+	
+}
+ 
+#img3 {
+	width: 80vw;
+	background-image: url(../images/UAL.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+.title2 {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background: rgba(255,255,255,0.55);
+	padding-top: 5px;
+}
+
+.title3 {
+	font-size: 0.75em;
+	text-align: center;
+	color: black;
+	background: rgba(255,255,255,0.55);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.body {
+	font-size: 1em;
+	margin: 0 auto;
+	width: 80vw;
+	box-sizing: border-box;
+	margin-top: 18px;
+	margin-bottom: 35px;
+	line-height: 20px;
+}
+
+.link1 {
+	text-decoration: none;
+	color: #FF7964;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.link1:hover {
+	text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 600px) {
+	#img1 {width: 60%; height: 85%; margin-top: 100px;}
+	section #vid1 { height: 400px; left: 80px; margin-top: 280px;transform: rotate(90deg);}
+	#week1 {margin-top: 5vw; margin-left: 5vw; margin-right: 5vw;}
+	#img1{width: 400px; height: 200px; margin: 0 auto; padding-top: 75px;}
+	#img2{width: 400px;}
+	#img3{width: 400px;}
+	#week1 .body {width: 400px;}
+	.title2 {font-size: 1.25em;}
+	.title3 {font-size: 1em;}
+	.link1 {width: 400px;}
+	#menu {	width: 5.25%;}
+}
+	
+@media only screen and (min-width: 768px) {
+	#img1 {width: 70%; height: 95%; margin-top: 140px;}
+	section #vid1 { height: 70%; left: 160px; margin-top: 200px;transform: rotate(0deg);}
+	#week1 {margin-top: 5vw; margin-left: 10vw; margin-right: 10vw;}
+	#img1{width: 600px; height: 200px; margin: 0 auto; padding-top: 75px;}
+	#img2{width: 600px;}
+	#img3{width: 600px;}
+	#week1 .body {width: 600px;}
+	.title2 {font-size: 1.5em;}
+	.title3 {font-size: 1em;}
+	.link1 {width: 400px;}
+	#menu{width: 3.25%; height: 5%;}
+}
